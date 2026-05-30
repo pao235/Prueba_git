@@ -1,0 +1,12 @@
+# Directorios de compilación
+build/
+Binaries/
+Archives/
+
+# Archivos y carpetas ocultas de Espressif IDE (Eclipse)
+.settings/
+.project
+.cproject
+
+# Archivos temporales de configuración de ESP-IDF
+sdkconfig.old
