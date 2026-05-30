@@ -18,6 +18,7 @@ int ambosPresionados = false;
 
 void actualizar_leds() {
 	// Esto es un cambio en la rama develop
+	// Nueva modificación
     switch (estadoColor) {
         case 0: // ROJO
             gpio_set_level(LEDS_RGB[0], 0);  // ROJO encendido
